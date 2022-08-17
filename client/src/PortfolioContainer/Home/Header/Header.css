@@ -1,0 +1,148 @@
+.header-container {
+  display: flex;
+  justify-content: center;
+  height: 140px;
+  color: var(--white);
+}
+
+.header-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  width: 70%;
+  color: var(--white);
+}
+
+.header-logo {
+  font-size: 27px;
+  font-family: "Poppins Bold";
+  transition: all 0.3s ease;
+  padding-right: 20px;
+  cursor: pointer;
+}
+
+.header-logo .dhruv {
+  color: white;
+}
+
+.header-logo .dot {
+  color: var(--light-blue);
+}
+
+.header-options {
+  display: flex;
+  align-items: center;
+}
+
+.header-option {
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 600;
+  text-decoration: none;
+  display: block;
+  padding: 5px 0;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: none;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(
+    to right,
+    var(--light-blue),
+    var(--light-blue) 50%,
+    #fff 50%
+  );
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.header-option:before {
+  display: block;
+  content: "";
+  width: 0;
+  height: 2px;
+  left: 0;
+  bottom: 0px;
+  z-index: 0;
+  position: absolute;
+  background: var(--light-blue);
+  transition: all 0.5s ease-in-out;
+}
+
+.header-option:hover {
+  background-position: 0%;
+}
+
+.header-option:hover:before {
+  width: 100%;
+}
+
+.header-hamburger {
+  display: none;
+  color: var(--white);
+}
+
+.header-option-seperator {
+  margin: 0 50px 0 0;
+  color: var(--white);
+}
+
+.selected-header-option {
+  color: var(--light-blue);
+}
+
+@media only screen and (max-width: 1110px) {
+  header-parent {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 970px) {
+  .header-hamburger {
+    display: block;
+  }
+  .header-parent {
+    width: 100%;
+    padding: 0 40px;
+    position: relative;
+  }
+  .header-options {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -100%;
+    transition: all 0.8s ease-out;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #1f2235;
+    z-index: 1000;
+    opacity: 0.5;
+  }
+  .header-option-seperator {
+    margin: 0;
+  }
+  .selected-header-option {
+    color: var(--white);
+  }
+  .header-option {
+    color: var(--white);
+  }
+  .header-hamburger-bars {
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0px 10px;
+    color: var(--white);
+  }
+  .show-hamburger-options {
+    left: 0;
+    opacity: 1;
+  }
+}

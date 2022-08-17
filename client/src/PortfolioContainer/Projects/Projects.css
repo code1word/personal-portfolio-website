@@ -1,0 +1,256 @@
+.ribbon {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  left: -10px;
+  top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  z-index: 7000;
+}
+
+.ribbon::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 40px;
+  background-color: var(--light-blue);
+  border: 2px dashed #1f2355;
+  transform: rotate(-45deg) translateY(-50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.ribbon .fa-star {
+  position: absolute;
+  color: white;
+  font-size: 30px;
+  transform: rotate(-45deg) translateY(-50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-description {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: -20px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.star-description span {
+  font-style: bold;
+}
+
+.star-description-text {
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: "Poppins SemiBold";
+}
+
+.testi-background {
+  width: 100%;
+}
+
+.project-section {
+  padding: 80px 0 80px;
+  background-color: var(--light-blue);
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  z-index: -1;
+}
+
+.project-section::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.55;
+}
+
+.row {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.card {
+  padding: 30px;
+  margin: 10px 10px 20px 10px;
+  border-radius: 20px;
+  border: 2px solid white;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  transition: 0.4s ease-out;
+  box-shadow: 0 0 0 2px #1f2235;
+}
+
+.card:hover {
+  transform: translateY(15px);
+}
+
+.card:hover .ribbon::before {
+  transition: 0.3s;
+  background-color: transparent;
+  border: 2px dashed transparent;
+  box-shadow: none;
+}
+
+.card:not(:hover) .ribbon::before {
+  transition: 0.3s;
+  background-color: var(--light-blue);
+  border: 2px dashed #1f2355;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .ribbon .fa-star {
+  color: transparent;
+  transition: 0.3s;
+}
+
+.card:not(:hover) .ribbon .fa-star {
+  color: white;
+  transition: 0.3s;
+}
+
+.card:hover:before {
+  opacity: 1;
+}
+
+.card:hover .info {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.card:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 2;
+  transition: 0.5s;
+  opacity: 0;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  background-size: contain;
+  top: 0;
+  left: 0;
+}
+
+.card .info {
+  position: relative;
+  z-index: 3;
+  color: white;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: 0.5s;
+}
+
+.card .info h2 {
+  font-family: "Poppins SemiBold";
+  margin: 0px;
+}
+
+.card .info p {
+  font-size: 15px;
+  margin-top: 8px;
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.demo-link a {
+  color: var(--light-blue);
+}
+
+@media (min-width: 600px) {
+  .row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .row {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.git-hub .icon {
+  position: relative;
+  color: white;
+  transition: 0.5s;
+  z-index: 3;
+  font-size: 28px;
+}
+
+.git-hub:hover .icon {
+  transform: rotateY(360deg);
+}
+
+.git-hub {
+  position: relative;
+  margin-right: auto;
+  padding: 14px 16.5px;
+  transition: all 0.2s ease;
+}
+
+.git-hub:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: transparent;
+  border: 2px solid white;
+  width: 56px;
+  height: 56px;
+  transition: all 0.3s ease;
+}
+
+.git-hub span {
+  position: absolute;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  color: transparent;
+  margin-left: 10px;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+
+.git-hub:hover:before {
+  width: 180px;
+  background-color: black;
+}
+
+.git-hub:hover span {
+  color: white;
+  transition: 1s;
+}
