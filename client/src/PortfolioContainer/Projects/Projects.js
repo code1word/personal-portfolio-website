@@ -214,6 +214,36 @@ export default function Projects(props) {
 
             <div className="card">
               <img
+                src={require("../../assets/Projects/DDR Logo.png")}
+                alt="no internet connection"
+              />
+              <div className="info">
+                <h2>Dance Dance Revolution</h2>
+                <p className="italic">
+                  Technologies used: Arduino, Adafruit RGB Matrix Library,
+                  LiquidCrystal Library
+                </p>
+                <p>
+                  A recreation of Dance Dance Revolution on Arduino that prompts
+                  user input through joystick tilts and button presses,
+                  gradually becomes more difficult as the game progresses, plays
+                  music, and more!
+                </p>
+                <a
+                  href="https://github.com/code1word/DDR-Arduino-Game"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="git-hub">
+                    <i className="fa fa-github icon"></i>
+                    <span>View on GitHub</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div className="card">
+              <img
                 src={require("../../assets/Projects/CSG Logo.png")}
                 alt="no internet connection"
               />

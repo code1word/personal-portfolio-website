@@ -40,6 +40,7 @@
   box-shadow: 0 0 0 2px white, 0 8px 14px 6px black;
   background: #1f2235;
   animation: floating 1.5s ease-in-out infinite;
+  -webkit-animation: floating 1.5s ease-in-out infinite;
 }
 
 @keyframes floating {

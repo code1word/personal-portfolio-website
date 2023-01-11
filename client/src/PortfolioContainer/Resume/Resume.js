@@ -121,7 +121,7 @@ export default function Resume(props) {
           "BACHELOR OF SCIENCE IN COMPUTER SCIENCE; MINOR IN APPLIED MATHEMATICS"
         }
         description={
-          "Relevant Coursework: Advanced Programming in C (Systems Programming), Data Structures in Java, Computer Vision, Artificial Intelligence, Fundamentals of Computer Systems, Computer Science Theory, Discrete Mathematics, Computational Linear Alebra"
+          "Relevant Coursework: Advanced Programming in C, Data Structures in Java, Artificial Intelligence, Natural Language Processing, Fundamentals of Computer Systems, Databases, Competitive Programming, Computer Science Theory, Discrete Mathematics, Computational Linear Alebra"
         }
         fromDate={"August 2021"}
         toDate={"May 2025"}

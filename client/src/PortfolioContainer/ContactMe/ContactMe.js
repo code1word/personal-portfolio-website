@@ -6,7 +6,7 @@ import load1 from "../../assets/ContactMe/images/load2.gif";
 import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../utilities/ScrollService";
 import Animations from "../../utilities/Animations";
-import Bottom from "../../PortfolioContainer/Bottom/Bottom";
+// import Bottom from "../../PortfolioContainer/Bottom/Bottom";
 import "./ContactMe.css";
 
 export default function ContactMe(props) {
@@ -131,7 +131,7 @@ export default function ContactMe(props) {
           </form>
         </div>
       </div>
-      <Bottom />
+      {/* <Bottom /> */}
     </div>
   );
 }

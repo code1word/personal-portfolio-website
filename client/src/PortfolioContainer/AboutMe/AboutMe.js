@@ -18,7 +18,7 @@ export default function AboutMe(props) {
     highlights: {
       bullets: [
         "Columbia CS Society as a board member",
-        "Columbia Data Science Society",
+        "Columbia Build Lab",
         "Application Development Initiative",
       ],
       heading: "On campus, I'm involved in:",

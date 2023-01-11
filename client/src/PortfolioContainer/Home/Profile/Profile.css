@@ -161,7 +161,8 @@
   background-origin: border-box;
   box-shadow: 0 0 0 2px #1f2235, 0 0 0 9px white;
   position: relative;
-  z-index: 1;
+  z-index: 3;
+  overflow: hidden;
 }
 
 @keyframes animate {
@@ -169,27 +170,32 @@
     transform: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
   }
 }
 
 .profile-picture::after {
-  width: 104.5%;
-  height: 104.5%;
+  width: 120%;
+  height: 120%;
   position: absolute;
-  background-image: linear-gradient(to bottom right, #1f2235, #562b7c, #2b86c5);
-  border-radius: 50%;
-  filter: blur(50px);
+  background: conic-gradient(
+    #fc5c7d 0deg,
+    #6a82fb 120deg,
+    #6a82fb 240deg,
+    #fc5c7d 360deg
+  );
+  /* filter: blur(30px); */
   background-size: cover;
   content: "";
-  animation: animate 2s linear infinite;
+  animation: animate 3s linear infinite;
+  -webkit-animation: animate 3s linear infinte;
   background-origin: border-box;
-  z-index: 2;
+  z-index: -3;
 }
 
 .profile-picture-background {
-  height: 100%;
-  width: 100%;
+  height: 96%;
+  width: 96%;
   background-image: url("../../../assets/Home/PFP.png");
   background-size: cover;
   border-radius: 50%;
