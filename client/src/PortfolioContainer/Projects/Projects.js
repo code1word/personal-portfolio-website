@@ -36,6 +36,39 @@ export default function Projects(props) {
                 <i class="fa fa-star"></i>
               </div>
               <img
+                src={require("../../assets/Projects/Notflix Logo.png")}
+                alt="no internet connection"
+              />
+              <div className="info">
+                <h2>Notflix</h2>
+                <p className="italic">
+                  Technologies used: React JS, Redux, Cloud Firestore, Firebase Authentication
+                </p>
+                <p>
+                   Responsive Netflix clone made using React.js that leverages the TMDB API for real-time movie data; integrates Firebase Authentication and Redux for streamlined user management, while implementing multi-tier subscription model powered by Stripe Checkout and Firestore
+                </p>
+                <p className="demo-link">
+                  <a href="https://netflix-46a6e.firebaseapp.com/">
+                    Visit project website
+                  </a>
+                </p>
+                <a
+                  href="https://github.com/code1word/notflix"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <div className="git-hub">
+                    <i className="fa fa-github icon"></i>
+                    <span>View on GitHub</span>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div className="card">
+              <div className="ribbon">
+                <i class="fa fa-star"></i>
+              </div>
+              <img
                 src={require("../../assets/Projects/Chatbot Logo.png")}
                 alt="no internet connection"
               />
