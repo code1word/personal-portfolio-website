@@ -161,7 +161,6 @@ export default function Resume(props) {
               Organized a summer hackathon event to promote interest in computer
               science, receiving over 30 submissions.
             </li>
-            <li>Led cybersecurity awareness workshops for 50+ seniors.</li>
           </ul>
         </div>
       </div>
