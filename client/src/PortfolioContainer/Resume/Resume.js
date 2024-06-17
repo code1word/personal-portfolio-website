@@ -118,22 +118,13 @@ export default function Resume(props) {
       <ResumeHeading
         heading={"Columbia University, New York, NY"}
         subHeading={
-          "BACHELOR OF SCIENCE IN COMPUTER SCIENCE; MINOR IN APPLIED MATHEMATICS"
+          "M.S AND B.S IN COMPUTER SCIENCE; MINOR IN APPLIED MATHEMATICS"
         }
         description={
-          "Relevant Coursework: Advanced Programming in C, Data Structures in Java, Artificial Intelligence, Natural Language Processing, Fundamentals of Computer Systems, Databases, Competitive Programming, Computer Science Theory, Discrete Mathematics, Computational Linear Alebra"
+          "Relevant Coursework: Advanced Programming in C, Data Structures in Java, Advanced Software Engineering, Artificial Intelligence, Natural Language Processing, Computer Vision, Cryptography, Operating Systems, Parallel Functional Programming, Quantum Computing, Fundamentals of Computer Systems, Databases, Competitive Programming, Computer Science Theory, Discrete Mathematics, Computational Linear Alebra, Partial Differential Equations, Functions of Complex Variables, Numerical Methods for Scientific Computing, Probability and Statistics"
         }
         fromDate={"August 2021"}
-        toDate={"May 2025"}
-      />
-      <ResumeHeading
-        heading={"NC School of Science and Mathematics, Durham, NC"}
-        subHeading={"HIGH SCHOOL DIPLOMA"}
-        description={
-          "Relevant Coursework: Graph Theory, Multivariable Calculus, Java, Procedural Programming in Python, Number Theory, AP Computer Science A/Principles"
-        }
-        fromDate={"August 2019"}
-        toDate={"May 2021"}
+        toDate={"May 2026"}
       />
     </div>,
     <div // Experience container
