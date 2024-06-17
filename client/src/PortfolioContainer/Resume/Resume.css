@@ -134,6 +134,7 @@ ul li::before {
 .resume-heading {
   display: flex;
   flex-direction: column;
+  margin-top: 10px;
 }
 
 .resume-main-heading {
