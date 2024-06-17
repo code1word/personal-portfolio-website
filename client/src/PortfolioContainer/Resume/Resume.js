@@ -153,10 +153,10 @@ export default function Resume(props) {
          <div className="resume-description-text">
           <ul>
             <li>
-              Developed back-end for travel experience platform adopted by 15+ hotels using Node.js; built admin and guest authentication and created APIs for managing reservations and property inforomation; implemented front-end in React and utilized Redux to manage state for user login and recommendations
+              Developed back-end for travel experience platform adopted by 15+ hotels using Node.js; created APIs for managing reservation info; implemented front-end in React and utilized Redux to manage state for user login
             </li>
             <li>
-              Developed mobile app using React Native for non-English speaking patients to discover accessible clinical trials; designed algorithm to match patients with nearby clinical trials and created a web scraper to crawl trial eligibility criteria
+              Developed mobile app using React Native for non-English speaking patients to discover accessible clinical trials; designed algorithm to match patients with nearby trials and created a web scraper to crawl trial eligibility criteria
             </li>
           </ul>
         </div>
