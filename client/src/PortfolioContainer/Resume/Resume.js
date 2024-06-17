@@ -131,6 +131,7 @@ export default function Resume(props) {
       className="resume-screen-container"
       key="work-experience"
     >
+        
       <div className="experience-container">
         <ResumeHeading
           heading={"Software Engineer Intern"}
@@ -152,7 +153,7 @@ export default function Resume(props) {
       //       "Worked as a developer for two startups at the Columbia Business School"
       //     }
       //   />
-      // <div className="experience-container">    
+      //    
       //   <div className="resume-description-text">
       //     <ul>
       //       <li>
@@ -163,7 +164,7 @@ export default function Resume(props) {
       //       </li>
       //     </ul>
       //   </div>
-      // </div>
+      </div>
     </div>,
     <div // Programming container
       className="resume-screen-container programming-skills-container"
