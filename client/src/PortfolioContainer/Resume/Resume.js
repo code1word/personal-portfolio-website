@@ -133,24 +133,33 @@ export default function Resume(props) {
     >
       <div className="experience-container">
         <ResumeHeading
-          heading={"Prakriti Inc."}
-          subHeading={"Founder and Director"}
-          fromDate={"January 2018"}
-          toDate={"Present"}
+          heading={"Software Engineer Intern"}
+          subHeading={"United Airlines"}
+          fromDate={"May 2024"}
+          toDate={"August 2024"}
           description={
-            "Launched a non-profit organization that provides educational opportunities such as online classes, webinars, and tutoring services while simultaneously raising funds for various social causes."
+            "Developed and maintained customer-facing projects like family seating reportgin using Node.js and DynamoDB; created and optimized APIs with AWS serverless technologies like Lambda; used Datadog and AWS CloudWatch for monitoring of API logs"
           }
         />
+
+        <div className="experience-container">
+        <ResumeHeading
+          heading={"Software Engineer / AI Engineer"}
+          subHeading={"Columbia Business School Startup Incubator"}
+          fromDate={"September 2022"}
+          toDate={"May 2024"}
+          description={
+            "Worked as a developer for two startups at the Columbia Business School"
+          }
+        />
+            
         <div className="resume-description-text">
           <ul>
             <li>
-              Organized and successfully conducted a six-week summer STEM
-              program, offering courses in Java, Python, and more to nearly 200
-              middle and high school students.
+              Developed back-end for travel experience platform adopted by 15+ hotels using Node.js; built admin and guest authentication and created APIs for managing reservations and property inforomation; implemented front-end in React and utilized Redux to manage state for user login and recommendations
             </li>
             <li>
-              Organized a summer hackathon event to promote interest in computer
-              science, receiving over 30 submissions.
+              Developed mobile app using React Native for non-English speaking patients to discover accessible clinical trials; designed algorithm to match patients with nearby clinical trials and created a web scraper to crawl trial eligibility criteria
             </li>
           </ul>
         </div>
