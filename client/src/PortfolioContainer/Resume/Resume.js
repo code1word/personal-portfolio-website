@@ -118,7 +118,7 @@ export default function Resume(props) {
       <ResumeHeading
         heading={"Columbia University, New York, NY"}
         subHeading={
-          "M.S AND B.S IN COMPUTER SCIENCE; MINOR IN APPLIED MATHEMATICS"
+          "M.S. AND B.S. IN COMPUTER SCIENCE; MINOR IN APPLIED MATHEMATICS"
         }
         description={
           "Relevant Coursework: Advanced Programming in C, Data Structures in Java, Advanced Software Engineering, Artificial Intelligence, Natural Language Processing, Computer Vision, Cryptography, Operating Systems, Parallel Functional Programming, Quantum Computing, Fundamentals of Computer Systems, Databases, Competitive Programming, Computer Science Theory, Discrete Mathematics, Computational Linear Alebra, Partial Differential Equations, Functions of Complex Variables, Numerical Methods for Scientific Computing, Probability and Statistics"
