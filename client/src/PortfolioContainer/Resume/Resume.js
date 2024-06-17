@@ -142,7 +142,7 @@ export default function Resume(props) {
           }
         />
 
-        <div className="experience-container">
+        
         <ResumeHeading
           heading={"Software Engineer / AI Engineer"}
           subHeading={"Columbia Business School Startup Incubator"}
@@ -152,7 +152,7 @@ export default function Resume(props) {
             "Worked as a developer for two startups at the Columbia Business School"
           }
         />
-            
+      <div className="experience-container">    
         <div className="resume-description-text">
           <ul>
             <li>
