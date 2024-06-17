@@ -141,6 +141,15 @@ export default function Resume(props) {
             "Developed and maintained customer-facing projects like family seating reporting using Node.js and DynamoDB; created and optimized APIs with AWS serverless technologies like Lambda; used Datadog and AWS CloudWatch for monitoring of API logs"
           }
         />
+        <ResumeHeading
+          heading={"Software Engineer / AI Engineer"}
+          subHeading={"Columbia Business School Startup Incubator"}
+          fromDate={"September 2022"}
+          toDate={"May 2024"}
+          description={
+            "Worked as a developer for two startups at the Columbia Business School"
+          }
+        />
       </div>
     </div>,
     <div // Programming container
