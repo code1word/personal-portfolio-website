@@ -150,6 +150,16 @@ export default function Resume(props) {
             "Worked as a developer for two startups at the Columbia Business School"
           }
         />
+         <div className="resume-description-text">
+          <ul>
+            <li>
+              Developed back-end for travel experience platform adopted by 15+ hotels using Node.js; built admin and guest authentication and created APIs for managing reservations and property inforomation; implemented front-end in React and utilized Redux to manage state for user login and recommendations
+            </li>
+            <li>
+              Developed mobile app using React Native for non-English speaking patients to discover accessible clinical trials; designed algorithm to match patients with nearby clinical trials and created a web scraper to crawl trial eligibility criteria
+            </li>
+          </ul>
+        </div>
       </div>
     </div>,
     <div // Programming container
