@@ -131,16 +131,17 @@ export default function Resume(props) {
       className="resume-screen-container"
       key="work-experience"
     >
-        <div className="experience-container">
-        <ResumeHeading
-          heading={"Software Engineer Intern"}
-          subHeading={"United Airlines"}
-          fromDate={"May 2024"}
-          toDate={"August 2024"}
-          description={
-            "Developed and maintained customer-facing projects like family seating reportgin using Node.js and DynamoDB; created and optimized APIs with AWS serverless technologies like Lambda; used Datadog and AWS CloudWatch for monitoring of API logs"
-          }
-        />
+        // <div className="experience-container">
+          <ResumeHeading
+            heading={"Software Engineer Intern"}
+            subHeading={"United Airlines"}
+            fromDate={"May 2024"}
+            toDate={"August 2024"}
+            description={
+              "Developed and maintained customer-facing projects like family seating reportgin using Node.js and DynamoDB; created and optimized APIs with AWS serverless technologies like Lambda; used Datadog and AWS CloudWatch for monitoring of API logs"
+            }
+          />
+        // </div>
 
         
       //   <ResumeHeading
@@ -163,7 +164,7 @@ export default function Resume(props) {
       //       </li>
       //     </ul>
       //   </div>
-      </div>
+      // </div>
         
       
     </div>,
