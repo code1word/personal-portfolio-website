@@ -14,7 +14,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTANTS = {
     description:
-      "Hello! 👋 I'm a third-year student at Columbia University studying computer science 💻 and applied mathematics 🔢 in the Fu Foundation School of Engineering and Applied Science ⚒️🔬. I'm very passionate about exploring the application of technology ⚙️ to solve problems and make a meaningful impact. I also have a strong interest in topics like data science 📊 and natural language processing 🗣️, and am constantly looking to further my understanding.",
+      "Hello! 👋 I'm a fourth-year student at Columbia University studying computer science 💻 and applied mathematics 🔢 in the Fu Foundation School of Engineering and Applied Science ⚒️🔬. I'm very passionate about exploring the application of technology ⚙️ to solve problems and make a meaningful impact. I also have a strong interest in topics like data science 📊 and natural language processing 🗣️, and am constantly looking to further my understanding.",
     highlights: {
       bullets: [
         "Columbia CS Society as a board member",
