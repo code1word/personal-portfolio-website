@@ -20,6 +20,7 @@ export default function AboutMe(props) {
         "Columbia CS Society as a board member",
         "Columbia Build Lab",
         "Application Development Initiative",
+        "Tau Beta Pi Engineering Honor Society",
       ],
       heading: "On campus, I'm involved in:",
     },
