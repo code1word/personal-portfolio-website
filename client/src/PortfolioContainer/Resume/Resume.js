@@ -131,6 +131,39 @@ export default function Resume(props) {
       className="resume-screen-container"
       key="work-experience"
     >
+        <div className="experience-container">
+        <ResumeHeading
+          heading={"Software Engineer Intern"}
+          subHeading={"United Airlines"}
+          fromDate={"May 2024"}
+          toDate={"August 2024"}
+          description={
+            "Developed and maintained customer-facing projects like family seating reportgin using Node.js and DynamoDB; created and optimized APIs with AWS serverless technologies like Lambda; used Datadog and AWS CloudWatch for monitoring of API logs"
+          }
+        />
+
+        
+      //   <ResumeHeading
+      //     heading={"Software Engineer / AI Engineer"}
+      //     subHeading={"Columbia Business School Startup Incubator"}
+      //     fromDate={"September 2022"}
+      //     toDate={"May 2024"}
+      //     description={
+      //       "Worked as a developer for two startups at the Columbia Business School"
+      //     }
+      //   />
+      //    
+      //   <div className="resume-description-text">
+      //     <ul>
+      //       <li>
+      //         Developed back-end for travel experience platform adopted by 15+ hotels using Node.js; built admin and guest authentication and created APIs for managing reservations and property inforomation; implemented front-end in React and utilized Redux to manage state for user login and recommendations
+      //       </li>
+      //       <li>
+      //         Developed mobile app using React Native for non-English speaking patients to discover accessible clinical trials; designed algorithm to match patients with nearby clinical trials and created a web scraper to crawl trial eligibility criteria
+      //       </li>
+      //     </ul>
+      //   </div>
+      </div>
         
       
     </div>,
